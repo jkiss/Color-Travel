@@ -1,0 +1,276 @@
+[
+  {
+    "id": "16NRT",
+    "name": "Asia",
+    "year": 2016,
+    "geo": [35.689487, 139.691706],
+    "company": {
+      "0": [],
+      "4": ["Mom", "Sister"],
+      "12": ["Mom", "Dad", "Sister", "Grandpa", "Grandma", "Aunt(s)", "Uncle(s)", "Cousin(s)"],
+      "13": ["Mom", "Dad", "Sister", "Grandpa", "Grandma"],
+      "17": ["Sister"],
+      "18": []
+    },
+    "places": {
+      "0": "Los Angeles, California",
+      "1": "Tokyo, Japan",
+      "4": "Hakodate, Japan",
+      "6": "Tokyo, Japan",
+      "8": "Tokyo, Japan",
+      "12": "Beijing, China",
+      "13": "Jiuzhaigou, China",
+      "17": "Beijing, China"
+    },
+    "loves": {
+      "2": "Ghibli exhibit",
+      "3": "Bakawarai Junsui",
+      "10": "Shinjuku Gyoen",
+      "11": "Sushi Dai",
+      "12": "A family reunion",
+      "14": "Land of Fairytales",
+      "16": "Huang Long"
+    }
+  },
+  {
+    "id": "16SEA",
+    "name": "Seattle",
+    "year": 2016,
+    "geo": [47.606209, -122.332071],
+    "company": {
+      "0": ["Alex"],
+      "2": ["Alex", "Ling", "John"],
+      "4": ["Alex"]
+    },
+    "places": {
+      "0": "Seattle, Washington"
+    },
+    "loves": {
+      "1": "Olympic National Park"
+    }
+  },
+  {
+    "id": "16JFK",
+    "name": "New York",
+    "year": 2016,
+    "geo": [40.712784, -74.005941],
+    "company": {
+      "0": ["Adam"],
+      "1": [],
+      "6": ["Allison"],
+      "7": [],
+      "11": ["Susie", "Zan", "Kerry", "Erik", "James"]
+    },
+    "places": {
+      "0": "New York, New York",
+      "2": "New York, New York",
+      "7": "Boston, Massachusetts",
+      "11": "Cape Cod, Massachusetts"
+    },
+    "loves": {
+      "1": "Metropolitan Museum of Art",
+      "4": "Wicked the Musical",
+      "5": "BrooklynJS",
+      "6": "Dominique Ansel: U.P.",
+      "9": "Openvis Conf, Day 1"
+    }
+  },
+  {
+    "id": "16STL",
+    "name": "St. Louis",
+    "year": 2016,
+    "geo": [38.627003, -90.199404],
+    "company": {
+      "0": ["Annelise", "Andy"],
+      "1": ["Annelise"],
+      "2": ["Andy"]
+    },
+    "places": {
+      "0": "St. Louis, Missouri"
+    },
+    "loves": {
+      "1": "RED PANDAS"
+    }
+  },
+  {
+    "id": "15HNL",
+    "name": "Hawaii",
+    "year": 2015,
+    "geo": [21.306944, -157.858333],
+    "company": {
+      "0": ["Alex", "Olivia", "Tom", "Joline", "Chris"]
+    },
+    "places": {
+      "0": "Kauai, Hawaii",
+      "4": "Oahu, Hawaii"
+    },
+    "loves": {
+      "0": "Helicopter ride above Kauai",
+      "2": "Ziplining Poipu"
+    }
+  },
+  {
+    "id": "15ARN",
+    "name": "Europe",
+    "year": 2015,
+    "geo": [59.329323, 18.068581],
+    "company": {
+      "0": ["Alex"]
+    },
+    "places": {
+      "0": "Stockholm, Sweden",
+      "1": "Skaftafell, Iceland",
+      "2": "Reykjavik, Iceland",
+      "5": "Stockholm, Sweden"
+    },
+    "loves": {
+      "3": "That Golden Circle",
+      "4": "BLUE LAGOON"
+    }
+  },
+  {
+    "id": "15JFK",
+    "name": "New York",
+    "year": 2015,
+    "geo": [40.712784, -74.005941],
+    "company": {
+      "0": ["Stephanie"]
+    },
+    "places": {
+      "0": "New York, New York"
+    },
+    "loves": {
+      "0": "Bouley"
+    }
+  },
+  {
+    "id": "14NRT",
+    "name": "Asia",
+    "year": 2014,
+    "geo": [35.689487, 139.691706],
+    "company": {
+      "0": ["Alex", "Michael"],
+      "15": ["Grandpa", "Grandma"],
+      "16": ["Aunt(s)", "Uncle(s)", "Cousin(s)"],
+      "17": ["Grandpa", "Grandma", "Aunt(s)", "Uncle(s)", "Cousin(s)"],
+      "18": ["Grandpa", "Grandma"],
+      "21": []
+    },
+    "places": {
+      "0": "San Francisco, California",
+      "1": "Tokyo, Japan",
+      "4": "Hiroshima, Japan",
+      "6": "Kyoto, Japan",
+      "8": "Osaka, Japan",
+      "10": "Kobe, Japan",
+      "12": "Tokyo, Japan",
+      "15": "Beijing, China",
+      "17": "Shangdong, China",
+      "18": "Beijing, China",
+      "21": "Tokyo, Japan"
+    },
+    "loves": {
+      "2": "Sushi Dai",
+      "5": "Miyajima",
+      "6": "Arashiyama Benkei",
+      "10": "KOBE BEEF",
+      "12": "Ghibli Museum",
+      "17": "Family time",
+      "20": "Peking duck"
+    }
+  },
+  {
+    "id": "14SEA",
+    "name": "Seattle",
+    "year": 2014,
+    "geo": [47.606209, -122.332071],
+    "company": {
+      "0": ["Alex", "Bryant"],
+      "1": ["Alex", "Bryant", "Ling", "Jon"]
+    },
+    "places": {
+      "0": "Seattle, Washington",
+      "1": "Vancouver, British Columbia"
+    },
+    "loves": {}
+  },
+  {
+    "id": "13LHR",
+    "name": "Europe",
+    "year": 2013,
+    "geo": [51.507351, -0.127758],
+    "company": {
+      "0": ["Clarisse"]
+    },
+    "places": {
+      "0": "London, England",
+      "4": "Brussels, Belgium",
+      "5": "Amsterdam, Netherlands",
+      "6": "Paris, France",
+      "9": "Barcelona, Spain",
+      "11": "Madrid, Spain",
+      "13": "Lisbon, Portugal"
+    },
+    "loves": {
+      "2": "Oxford",
+      "9": "Sensi",
+      "10": "Jamon Iberico",
+      "13": "Ziplining Sintra Canopy",
+      "14": "Cascais"
+    }
+  },
+  {
+    "id": "13PDX",
+    "name": "Portland",
+    "year": 2013,
+    "geo": [45.523062, -122.676482],
+    "company": {
+      "0": []
+    },
+    "places": {
+      "0": "Portland, Oregon",
+      "3": "San Francisco, California",
+      "40": "Portland, Oregon"
+    },
+    "loves": {}
+  },
+  {
+    "id": "13NYC",
+    "name": "New York",
+    "year": 2013,
+    "geo": [40.712784, -74.005941],
+    "company": {
+      "0": [],
+      "1": ["Ron", "Crystal", "Tim"],
+      "2": [],
+      "3": ["Yang"]
+    },
+    "places": {
+      "0": "New York, New York",
+      "3": "New Haven, Connecticut"
+    },
+    "loves": {
+      "1": "A wedding"
+    }
+  },
+  {
+    "id": "12MSY",
+    "name": "Caribbeans",
+    "year": 2012,
+    "geo": [29.951066, -90.071532],
+    "company": {
+      "0": ["Jen", "Helen", "Amy", "David", "Kevin", "Nobo", "Michael", "Patrick"]
+    },
+    "places": {
+      "0": "New Orleans, Louisiana",
+      "4": "Montego Bay, Jamaica",
+      "5": "Grand Cayman, Cayman Islands",
+      "6": "Cozumel, Mexico",
+      "8": "New Orleans, Louisiana"
+    },
+    "loves": {
+      "4": "ATV",
+      "8": "Royal Street"
+    }
+  }
+]

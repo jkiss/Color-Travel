@@ -1,0 +1,47 @@
+<!DOCTYPE html><% var version = Math.random().toString(36).substr(2) %>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.page.title || 'CGTN' %></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta property="fb:app_id" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:rich_attachment" content="true" />
+    <meta property="og:url" content="<%= htmlWebpackPlugin.options.page.url %>" />
+    <meta property="og:title" content="<%= htmlWebpackPlugin.options.page.title %>" />
+    <meta property="og:image" content="<%= htmlWebpackPlugin.options.page.image %>" />
+    <meta property="og:description" content="<%= htmlWebpackPlugin.options.page.desc %>" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="<%= htmlWebpackPlugin.options.page.url %>">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:title" content="<%= htmlWebpackPlugin.options.page.title %>">
+    <meta name="twitter:description" content="<%= htmlWebpackPlugin.options.page.desc %>">
+    <meta name="twitter:image" content="<%= htmlWebpackPlugin.options.page.image %>">
+
+    <link rel="shortcut icon" href="<%= htmlWebpackPlugin.options.public_path %>/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="<%= htmlWebpackPlugin.options.public_path %>/favicon.png">
+
+    <% for (var css in htmlWebpackPlugin.files.css) { %>
+        <link href="<%= htmlWebpackPlugin.files.css[css] %>?v=<%= version%>" rel="stylesheet">
+    <% } %>
+
+    <script>
+        
+    </script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+        <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>?v=<%= version%>"></script>
+    <% } %>
+</body>
+</html>
